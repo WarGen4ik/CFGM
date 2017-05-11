@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: ndeploy
+Implementation-Version: 0.1.0
+Built-By: Whaletail
+Built-Date: Fri Mar 17 18:40:50 EET 2017
+Built-JDK: 1.8.0_101
+Main-Class: com.whaletail.app.view.AppInit
+
