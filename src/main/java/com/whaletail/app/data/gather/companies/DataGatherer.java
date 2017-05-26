@@ -19,11 +19,7 @@ public class DataGatherer {
 
     private static final Logger logger = LoggerFactory.getLogger(DataGatherer.class);
 
-    private static final String GMAPI_URL_GEOLOCATION = "https://maps.googleapis.com/maps/api/geocode/json?" +
-            "address=%address%" +
-            "&key=%api_key%";
-    private static final String API_KEY_GEOLOCATION = "AIzaSyD3Hys-tXja70jAm5UMqRIRXHLosNVjSDM";
-    private static final String API_KEY_PLACES = "AIzaSyCnxC5vVKTRzgLFJNa2bIauEvCyb4w8x0U";//"AIzaSyDPNi-vNBgN-1IB6wMsOi25Zk3sE8C8aYk";//
+    private static final String API_KEY_PLACES =  "AIzaSyDPNi-vNBgN-1IB6wMsOi25Zk3sE8C8aYk";//"AIzaSyCnxC5vVKTRzgLFJNa2bIauEvCyb4w8x0U";//
     private static final String GMAPI_URL_DETAILS =
             "https://maps.googleapis.com/maps/api/place/details/json?" +
                     "placeid=%place_id%" +
@@ -34,79 +30,81 @@ public class DataGatherer {
                     "&radius=%radius%" +
                     "&name=%name%" +
                     "&key=%api_key%";
-    private static final String PAGE_TOKEN = "&pagetoken=%page_token%";
     private static final String OVER_QUERY_LIMIT = "OVER_QUERY_LIMIT";
+    private static ArrayList<String> placeidList = new ArrayList<>();
 
+    public static void Release(){
+        placeidList.clear();
+    }
 
-    public Pair<Map<String, String>, QuotaLimitException> gather(double lat, double lng, String tag, int radius) throws IOException {
+    public Pair<Map<String, String>, QuotaLimitException> gather(String country, double lat, double lng, String tag, int radius) throws IOException {
         Map<String, String> companies = new HashMap<>();
         String status = "";
-        String pageToken = "";
-        do {
-            try {
 
-                String nearByUrl = GMAPI_URL_RADAR
-                        .replace("%lat%", Double.toString(lat))
-                        .replace("%lng%", Double.toString(lng))
-                        .replace("%radius%", Integer.toString(radius))
-                        .replace("%name%", tag)
-                        .replace("%api_key%", API_KEY_PLACES);
-
-                if (!pageToken.equals("")) {
-                    nearByUrl += PAGE_TOKEN.replace("%page_token%", pageToken);
-                }
-
-                logger.info("radar req = " + nearByUrl);
-                JsonObject companiesJson = getJson(nearByUrl);
-
-                logger.info("radar resp = " + companiesJson);
-
-                status = companiesJson.get("status").getAsString();
-                if (status.equals(OVER_QUERY_LIMIT)) {
-                    return new Pair<>(companies, new QuotaLimitException());
-                }
+            String nearByUrl = GMAPI_URL_RADAR
+                    .replace("%lat%", Double.toString(lat))
+                    .replace("%lng%", Double.toString(lng))
+                    .replace("%radius%", Integer.toString(radius))
+                    .replace("%name%", tag)
+                    .replace("%api_key%", API_KEY_PLACES);
 
 
-                JsonArray results = companiesJson.get("results").getAsJsonArray();
-                for (int i = 0; i < results.size(); i++) {
-                    try {
-                        String place_id = ((JsonObject) results.get(i)).get("place_id").getAsString();
-                        String detailsUrl = GMAPI_URL_DETAILS
-                                .replace("%place_id%", place_id)
-                                .replace("%api_key%", API_KEY_PLACES);
-                        logger.info("details req = " + detailsUrl);
-                        JsonObject json = getJson(detailsUrl);
-                        logger.info("details resp = " + json);
-                        if (json.get("status").getAsString().equals(OVER_QUERY_LIMIT)) {
-                            return new Pair<>(companies, new QuotaLimitException());
-                        }
-                        JsonObject company = json.get("result").getAsJsonObject();
-                        String name = company.get("name").getAsString();
-                        String website;
-                        if (company.get("website") != null) {
-                            website = company.get("website").getAsString();
-                        } else {
-                            website = "None";
-                        }
-                        companies.put(name, website);
-                        System.out.println(name + "     " + website);
-                    } catch (IOException e) {
-                        e.printStackTrace();
-                    }
-                }
-                if (companiesJson.get("next_page_token") != null) {
-                    pageToken = companiesJson.get("next_page_token").getAsString();
-                    Thread.sleep(2500);
-                } else {
-                    pageToken = null;
-                }
+            logger.info("radar req = " + nearByUrl);
+            JsonObject companiesJson = getJson(nearByUrl);
 
-            } catch (InterruptedException e) {
-                return new Pair<>(companies, null);
+            logger.info("radar resp = " + companiesJson);
+
+            status = companiesJson.get("status").getAsString();
+            if (status.equals(OVER_QUERY_LIMIT)) {
+                return new Pair<>(companies, new QuotaLimitException());
             }
-        } while (pageToken != null);
+
+            JsonArray results = companiesJson.get("results").getAsJsonArray();
+            for (int i = 0; i < results.size(); i++) {
+                try {
+                    String place_id = ((JsonObject) results.get(i)).get("place_id").getAsString();
+
+                    if (!isNew(place_id)) {
+                        continue;
+                    }
+
+                    String detailsUrl = GMAPI_URL_DETAILS
+                            .replace("%place_id%", place_id)
+                            .replace("%api_key%", API_KEY_PLACES);
+                    logger.info("details req = " + detailsUrl);
+                    JsonObject json = getJson(detailsUrl);
+                    logger.info("details resp = " + json);
+
+                    if (json.get("status").getAsString().equals(OVER_QUERY_LIMIT)) {
+                        return new Pair<>(companies, new QuotaLimitException());
+                    }
+                    JsonObject company = json.get("result").getAsJsonObject();
+                    String name = company.get("name").getAsString();
+                    String website;
+                    if (company.get("website") != null) {
+                        website = company.get("website").getAsString();
+                    } else {
+                        website = "None";
+                    }
+                    companies.put(name, website);
+                    System.out.println(name + "     " + website);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
         return new Pair<>(companies, null);
     }
 
+    private synchronized boolean isNew(String place_id){
+        for (String ID : placeidList) {
+            if (ID.equals(place_id)){
+                return false;
+            }
+        }
+
+        placeidList.add(place_id);
+        return true;
+    }
 
 }

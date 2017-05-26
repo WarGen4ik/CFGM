@@ -2,87 +2,114 @@ package com.whaletail.app.data.gather.Countries;
 
 import javafx.util.Pair;
 
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
+import com.whaletail.app.Country;
 
 /**
  * @author Whaletail
  * @email silentem1113@gmail.com
  */
 public class CoordsGatherer {
-
     private ArrayList<String> allNewCoords = new ArrayList<>();
+    BufferedWriter writer = null;
 
-    public ArrayList<String> gatherLocations(ArrayList<String> countries, String query) throws IOException {
 
-        LocationGatherer locationGatherer1 = new LocationGatherer(countries, query) {
-
-            @Override
-            boolean selection(int i) {
-                return i % 2 == 0;
-            }
-        };
-
-        LocationGatherer locationGatherer2 = new LocationGatherer(countries, query) {
-
-            @Override
-            boolean selection(int i) {
-                return i % 2 != 0;
-            }
-        };
-
-        locationGatherer1.start();
-        locationGatherer2.start();
-
-        try {
-            locationGatherer1.join();
-            locationGatherer2.join();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-
-        return allNewCoords;
+    private static int number = 0;
+    
+    private class Point{
+        public double x;
+        public double y;
     }
 
-    private abstract class LocationGatherer extends Thread {
+    public void gatherLocations(double lat, double lng, String country, int count) {
 
-        private ArrayList<String> list;
-        private String query;
+        int first, sec;
+        Point p = new Point();
+        p.x = lat;
+        p.y = lng;
 
-        public LocationGatherer(ArrayList<String> countries, String query) {
-            this.list = countries;
-            this.query = query;
+        //System.out.println(count);
+        if (count < 10000){
+            String str = country + ";" + Double.toString(p.x).replace(".", ",") + ";" +
+                    Double.toString(p.y).replace(".", ",");
+            write(str);
+            if (country.equals("VA")){
+                System.out.println(str);
+            }
+            //System.out.println(1);
+            return;
+        }
+        else if (count < 500000){
+            p.x += 0.0368;
+            p.y -= 0.0368;
+            first = 5;
+            sec = 5;
+            //System.out.println(2);
+        }
+        else {
+            p.x += 0.0736;
+            p.y -= 0.0736;
+            first = 10;
+            sec = 10;
+            //System.out.println(3);
         }
 
+        double savey = p.y;
 
-        @Override
-        public void run() {
-            for (int i = 0; i < list.size(); i++){
-                if (selection(i))
-                    continue;
-                String coords[] = list.get(i).split(";");
+        for (int k = 0; k < first; k++) {
+            for (int j = 0; j < sec; j++) {
+                write(country + ";" + Double.toString(p.x).replace(".", ",") + ";" +
+                        Double.toString(p.y).replace(".", ","));
+                p.y += 0.01472;
+            }
+            p.x -= 0.01472;
+            p.y = savey;
+        }
+        /*try {
+            writer.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }*/
+
+
+        /*try {
+            reader = new BufferedReader(new FileReader(COUNTRIES_COORDS));
+            String line;
+            while ((line = reader.readLine()) != null){
+
+            }
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (reader != null)
                 try {
-                    CountryGatherer countryGatherer = new CountryGatherer();
-                    System.out.println(list.get(i));
-                    Pair<String, ArrayList<String>> status = countryGatherer.gather(Double.parseDouble(coords[2].replace(",", ".")),
-                            Double.parseDouble(coords[3].replace(",", ".")),
-                            query,
-                            coords[1]);
-
-                    if (status.getKey().equals("ZERO_RESULTS")) {
-                        System.out.println("ZERO_RESULTS");
-                    } else {
-                        allNewCoords.addAll(status.getValue());
-                    }
-
-                } catch (IOException e){
-                    e.printStackTrace();
-                } catch (Exception e){
+                    reader.close();
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
-            }
-        }
+        }*/
 
-        abstract boolean selection(int i);
+        //return allNewCoords;
+    }
+    void write(String str) {
+        try {
+            writer = new BufferedWriter(new FileWriter("countries_coords.csv", true));
+            String str1 = Integer.toString(number) + ";" + str;
+            writer.write(str1);
+            writer.newLine();
+            number++;
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (writer != null)
+                try {
+                    writer.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+        }
     }
 }

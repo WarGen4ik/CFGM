@@ -2,57 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50cde54d-2ce7-4022-b6ba-91e09f15cbbe" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/Country.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CoordsGatherer$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CoordsGatherer$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CoordsGatherer$LocationGatherer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CoordsGatherer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CountryGatherer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/companies/DataGatherer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/companies/exceptions/QuotaLimitException.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/util/JsonUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/AppInit.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/CountyGatherApp.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/controllers/InitSceneController$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/controllers/InitSceneController$Gatherer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/controllers/InitSceneController.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/util/ViewUtil.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/CFGM-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gradle/2.13/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ShortCountriesNames.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/allcoords.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/county.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/libs/memory.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/fxml/initScene.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/resources/main/log4j.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/countries.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/countries_coords.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/countries_list.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gathered_countries.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/whaletail/app/Country.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CoordsGatherer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CountryGatherer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp.csv" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/whaletail/app/County.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/counties/CountyGatherer.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/CFGM_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/CFGM_main.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/CFGM_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/CFGM_test.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/resourceBundles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_ad.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_al.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_at.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_az.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_ba.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_be.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_bg.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_by.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_ch.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_cz.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_de.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_dk.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_ee.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_es.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_fi.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_fr.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_gb.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_gr.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_hr.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_hu.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_ie.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_is.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_it.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_kz.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_li.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_lt.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_lu.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_lv.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_mc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_md.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_me.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_mk.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_mt.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_nl.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_no.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_pl.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_pt.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_ro.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_rs.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_ru.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_se.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_si.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_sk.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_sm.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_tr.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_ua.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_us.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/languages/Locale_va.properties" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/allcoords.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CoordsGatherer$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CoordsGatherer$LocationGatherer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/CountyGatherApp.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/county.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/county_lat_lng.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gathered_countries.csv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/CountyGatherApp.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/temp.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/Country.class" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/Country.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CoordsGatherer$1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CoordsGatherer$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CoordsGatherer.class" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/Countries/CoordsGatherer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/companies/DataGatherer.class" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/data/gather/companies/DataGatherer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/controllers/InitSceneController$1.class" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/controllers/InitSceneController$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/controllers/InitSceneController$Gatherer.class" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/controllers/InitSceneController$Gatherer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/controllers/InitSceneController.class" afterPath="$PROJECT_DIR$/build/classes/main/com/whaletail/app/view/controllers/InitSceneController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShortCountriesNames.txt" afterPath="$PROJECT_DIR$/ShortCountriesNames.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/main/fxml/initScene.fxml" afterPath="$PROJECT_DIR$/build/resources/main/fxml/initScene.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.properties" afterPath="$PROJECT_DIR$/config.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/countries.properties" afterPath="$PROJECT_DIR$/countries.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/countries_coords.csv" afterPath="$PROJECT_DIR$/countries_coords.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/countries_list.txt" afterPath="$PROJECT_DIR$/countries_list.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/memory.csv" afterPath="$PROJECT_DIR$/memory.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/whaletail/app/Country.java" afterPath="$PROJECT_DIR$/src/main/java/com/whaletail/app/Country.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CoordsGatherer.java" afterPath="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CoordsGatherer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/companies/DataGatherer.java" afterPath="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/companies/DataGatherer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/companies/exceptions/QuotaLimitException.java" afterPath="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/companies/exceptions/QuotaLimitException.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/whaletail/app/util/JsonUtil.java" afterPath="$PROJECT_DIR$/src/main/java/com/whaletail/app/util/JsonUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/CountyGatherApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/CountyGatherApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/controllers/InitSceneController.java" afterPath="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/controllers/InitSceneController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/fxml/initScene.fxml" afterPath="$PROJECT_DIR$/src/main/resources/fxml/initScene.fxml" />
     </list>
@@ -111,36 +136,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="InitSceneController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/view/controllers/InitSceneController.java">
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="25" selection-end-column="70" />
-              <folding>
-                <element signature="e#12435#12436#0" expanded="true" />
-                <element signature="e#12475#12476#0" expanded="true" />
-                <element signature="e#12522#12523#0" expanded="true" />
-                <element signature="e#12557#12558#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="countries_coords.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/countries_coords.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11">
-              <caret line="29758" column="8" lean-forward="false" selection-start-line="29758" selection-start-column="6" selection-end-line="29758" selection-end-column="8" />
+            <state relative-caret-position="17">
+              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DataGatherer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/companies/DataGatherer.java">
+      <file leaf-file-name="countries.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/countries.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="25" column="93" lean-forward="false" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
+            <state relative-caret-position="260">
+              <caret line="226" column="9" lean-forward="false" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InitSceneController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/view/controllers/InitSceneController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="189" column="66" lean-forward="false" selection-start-line="189" selection-start-column="66" selection-end-line="189" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Locale_al.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_al.properties">
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Locale_by.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_by.properties">
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Locale_az.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_az.properties">
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -149,28 +208,18 @@
       <file leaf-file-name="memory.csv" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/memory.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="2326" column="0" lean-forward="true" selection-start-line="2326" selection-start-column="0" selection-end-line="2326" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="82304" column="21" lean-forward="true" selection-start-line="82304" selection-start-column="21" selection-end-line="82304" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/view/util/ViewUtil.java">
+      <file leaf-file-name="ShortCountriesNames.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ShortCountriesNames.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/util/JsonUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+            <state relative-caret-position="291">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -179,8 +228,8 @@
       <file leaf-file-name="AppInit.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/view/AppInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -198,44 +247,62 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>UA;49,9(.*);33,3</find>
-      <find>Kiyevstar</find>
-      <find>46,1753972;34,8147753</find>
-      <find>48,3527883;33,50321870000001</find>
-      <find>Kiїvstar</find>
-      <find>31,00575;66,40001</find>
-      <find>34,69246;70,92688</find>
-      <find>34,79095;69,47504</find>
-      <find>33,17568;68,73045</find>
-      <find>countCoords</find>
-      <find>System.out.println</find>
-      <find>33,67067;69,32983</find>
-      <find>Stable disks hosting company</find>
-      <find>BITENOTBARK</find>
-      <find>Reishaus</find>
-      <find>Diana's Restaurant &amp; Cafe</find>
-      <find>Domino's Wittenberg</find>
-      <find>Konditorei Knigge</find>
-      <find>China</find>
-      <find>China Restaurant Wan Xin</find>
-      <find>setGather</find>
+      <find>56,7825;61,7053</find>
+      <find>System.</find>
+      <find>alert</find>
+      <find>\n..\n</find>
+      <find>FINISHED</find>
+      <find>Coords</find>
+      <find>Progressive Insurance</find>
+      <find>AD</find>
+      <find>AL</find>
+      <find>AT</find>
+      <find>BY</find>
+      <find>BE</find>
+      <find>CH</find>
+      <find>CZ</find>
+      <find>DK</find>
+      <find>EE</find>
       <find>GB</find>
-      <find>burum</find>
-      <find>US</find>
-      <find>UA</find>
-      <find>gather</find>
-      <find>DE</find>
-      <find>portalZINE NMN</find>
-      <find>Hetzner Online GmbH</find>
-      <find>Coca-Cola</find>
+      <find>GR</find>
+      <find>IE</find>
+      <find>LI</find>
+      <find>LU</find>
+      <find>MC</find>
+      <find>MD</find>
+      <find>ME</find>
+      <find>RS</find>
+      <find>SE</find>
+      <find>SI</find>
+      <find>SK</find>
+      <find>SM</find>
+      <find>TR</find>
     </findStrings>
     <replaceStrings>
-      <replace>_</replace>
       <replace>\n</replace>
+      <replace>countries</replace>
+      <replace>_</replace>
+      <replace>Cords</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="WarGen4ik &lt;illko73@mail.ru&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="testOutPutArea" />
+      </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
   </component>
   <component name="GradleExtensions">
     <project path="$PROJECT_DIR$">
@@ -573,8 +640,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/AppInit.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/util/ViewUtil.java" />
-        <option value="$PROJECT_DIR$/county.csv" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/DataGather.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/companies/DataGather.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/counties/CountyGathrer.java" />
@@ -584,26 +649,36 @@
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/CompanyGathererApp.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/initScene.fxml" />
-        <option value="$PROJECT_DIR$/countries_list.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/Country.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/Country.java" />
-        <option value="$PROJECT_DIR$/ShortCountriesNames.txt" />
         <option value="$PROJECT_DIR$/countriesCoords.csv" />
-        <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/allcoords.csv" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/companies/CoordsGatherer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/counties/CountyGatherer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/counties/CoordsGatherer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/CountyGatherApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CountryGatherer.java" />
         <option value="$PROJECT_DIR$/gathered_countries.csv" />
-        <option value="$PROJECT_DIR$/countries_coords.csv" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/util/JsonUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CoordsGatherer.java" />
+        <option value="$PROJECT_DIR$/county.csv" />
+        <option value="$PROJECT_DIR$/temp.csv" />
         <option value="$PROJECT_DIR$/countries.properties" />
+        <option value="$PROJECT_DIR$/countries_list.txt" />
+        <option value="$PROJECT_DIR$/memory2.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/Country.java" />
+        <option value="$PROJECT_DIR$/memory1.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CoordsGatherer.java" />
+        <option value="$PROJECT_DIR$/countries_coords.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/CountyGatherApp.java" />
+        <option value="$PROJECT_DIR$/ShortCountriesNames.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/util/ViewUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/companies/DataGatherer.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/languages/ru.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/languages/Locale_en.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/languages/Locale_ru.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/languages/Locale_ad.properties" />
+        <option value="$PROJECT_DIR$/config.properties" />
         <option value="$PROJECT_DIR$/memory.csv" />
         <option value="$PROJECT_DIR$/src/main/java/com/whaletail/app/view/controllers/InitSceneController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/languages/Locale_az.properties" />
       </list>
     </option>
   </component>
@@ -637,7 +712,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -681,30 +755,8 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="CFGM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CFGM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -726,16 +778,16 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="languages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemId" value="Resource Bundle 'Locale'" />
+              <option name="myItemType" value="com.intellij.lang.properties.projectView.ResourceBundleNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -756,19 +808,11 @@
               <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="fxml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -795,78 +839,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="util" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CFGM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CFGM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Countries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CFGM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CFGM" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gather" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companies" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -874,17 +846,19 @@
       </pane>
       <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CFGM1" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -894,6 +868,7 @@
       <recent name="D:\ForStudy\CFGM\src\main\resources" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Admin\Desktop\CFGM\src\main\resources\languages" />
       <recent name="C:\Users\Admin\Desktop\CFGM" />
       <recent name="D:\ForStudy\CFGM\src\main\resources" />
     </key>
@@ -1492,46 +1467,70 @@
       <workItem from="1493971212903" duration="880000" />
       <workItem from="1494400351644" duration="4456000" />
       <workItem from="1494438944895" duration="11099000" />
+      <workItem from="1494494335347" duration="6813000" />
+      <workItem from="1494505417428" duration="8771000" />
+      <workItem from="1494579413264" duration="18355000" />
+      <workItem from="1494840880240" duration="15231000" />
+      <workItem from="1494927951810" duration="13399000" />
+      <workItem from="1495104997795" duration="9527000" />
+      <workItem from="1495114920734" duration="66000" />
+      <workItem from="1495115451912" duration="1460000" />
+      <workItem from="1495116976569" duration="3215000" />
+      <workItem from="1495610275979" duration="18341000" />
+      <workItem from="1495703690361" duration="218000" />
+      <workItem from="1495709598251" duration="249000" />
+      <workItem from="1495736451595" duration="3244000" />
+      <workItem from="1495789151275" duration="7382000" />
+      <workItem from="1495799123451" duration="5397000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218744000" />
+    <option name="totallyTimeSpent" value="330412000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13037634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13037634" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5051414" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40860215" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49485862" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41532257" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.4974293" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25449872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24807198" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27908218" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27908218" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2497332" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1549,9 +1548,13 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="encoding" />
+    <option name="LAST_COMMIT_MESSAGE" value="encoding" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1560,28 +1563,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="59" lean-forward="false" selection-start-line="7" selection-start-column="59" selection-end-line="7" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/System.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-log4j12/1.7.25/d6f907c4254a49f40fa46005b65bc97261ad9e46/slf4j-log4j12-1.7.25-sources.jar!/org/slf4j/impl/Log4jLoggerAdapter.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/org/apache/log4j/Hierarchy.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/org/apache/log4j/Category.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/org/apache/log4j/helpers/AppenderAttachableImpl.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/org/apache/log4j/AppenderSkeleton.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/org/apache/log4j/WriterAppender.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/org/apache/log4j/spi/LoggingEvent.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/org/apache/log4j/Priority.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/org/apache/log4j/helpers/PatternParser.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/org/apache/log4j/helpers/PatternConverter.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/677abe279b68c5e7490d6d50c6951376238d7d3e/log4j-1.2.17-sources.jar!/org/apache/log4j/PatternLayout.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/jre/lib/rt.jar!/org/jcp/xml/dsig/internal/dom/XMLDSigRI.class" />
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/jdk/internal/util/xml/impl/Pair.class" />
     <entry file="uml://JAVA/com.whaletail.app.view.controllers.InitSceneController">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1640,13 +1621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.maps/google-maps-services/0.1.19/f0d0591f98d3cee4b6e39550a68bad724357b831/google-maps-services-0.1.19-sources.jar!/com/google/maps/GeoApiContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
@@ -1656,26 +1630,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/countries.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/County.java" />
-    <entry file="file://$PROJECT_DIR$/ShortCountriesNames.txt" />
     <entry file="file://$PROJECT_DIR$/allcoords.txt" />
     <entry file="file://$PROJECT_DIR$/countries_coords.csv" />
-    <entry file="file://$PROJECT_DIR$/temp.csv" />
-    <entry file="file://$PROJECT_DIR$/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/companies/CoordsGatherer.java" />
-    <entry file="file://$PROJECT_DIR$/countries_list.txt" />
-    <entry file="file://$PROJECT_DIR$/county.csv">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/util/JsonUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        <state relative-caret-position="85">
+          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/short_countries_names.csv" />
+    <entry file="file://$PROJECT_DIR$/county_lat_lng.csv" />
+    <entry file="file://$PROJECT_DIR$/county.csv" />
+    <entry file="file://$PROJECT_DIR$/allcoords.csv" />
+    <entry file="file://$PROJECT_DIR$/gathered_countries.csv" />
     <entry file="file://$PROJECT_DIR$/data.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1683,84 +1652,227 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/allcoords.csv" />
-    <entry file="file://$PROJECT_DIR$/county_lat_lng.csv">
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="51" lean-forward="true" selection-start-line="0" selection-start-column="51" selection-end-line="0" selection-end-column="51" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/view/CountyGatherApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/Country.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="185">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gathered_countries.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CoordsGatherer.java" />
-    <entry file="file://$PROJECT_DIR$/countries.properties" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/Country.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CountryGatherer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/util/JsonUtil.java">
+    <entry file="file://$PROJECT_DIR$/temp.csv" />
+    <entry file="file://$PROJECT_DIR$/cities1000.txt" />
+    <entry file="file://$PROJECT_DIR$/memory2.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CoordsGatherer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="192">
+          <caret line="98" column="76" lean-forward="false" selection-start-line="98" selection-start-column="76" selection-end-line="98" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/view/AppInit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/Countries/CountryGatherer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-289">
+          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/memory1.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/view/CountyGatherApp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/view/util/ViewUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="34" lean-forward="false" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="306">
+          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/ua.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/ru.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_ua.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_en.properties" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_ru.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countries_list.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" lean-forward="false" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/countries_coords.csv">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="284718" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="29758" column="8" lean-forward="false" selection-start-line="29758" selection-start-column="6" selection-end-line="29758" selection-end-column="8" />
+        <state relative-caret-position="-2792544">
+          <caret line="303182" column="25" lean-forward="false" selection-start-line="303182" selection-start-column="10" selection-end-line="303182" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/data/gather/companies/DataGatherer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="25" column="93" lean-forward="false" selection-start-line="25" selection-start-column="93" selection-end-line="25" selection-end-column="93" />
+        <state relative-caret-position="187">
+          <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_112/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="1005" column="26" lean-forward="false" selection-start-line="1005" selection-start-column="26" selection-end-line="1005" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#48692#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#4787#4788#0" expanded="false" />
+            <element signature="e#4813#4814#0" expanded="false" />
+            <element signature="e#4990#4991#0" expanded="false" />
+            <element signature="e#5030#5031#0" expanded="false" />
+            <element signature="e#5711#5712#0" expanded="false" />
+            <element signature="e#5749#5750#0" expanded="false" />
+            <element signature="e#44871#44872#0" expanded="false" />
+            <element signature="e#44918#44919#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/view/AppInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ShortCountriesNames.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_at.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_ad.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/countries.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="226" column="9" lean-forward="false" selection-start-line="226" selection-start-column="7" selection-end-line="226" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/memory.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="2326" column="0" lean-forward="true" selection-start-line="2326" selection-start-column="0" selection-end-line="2326" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="82304" column="21" lean-forward="true" selection-start-line="82304" selection-start-column="21" selection-end-line="82304" selection-end-column="21" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_by.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="true" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_al.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/languages/Locale_az.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_112/src.zip!/java/util/ResourceBundle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="439" column="24" lean-forward="false" selection-start-line="439" selection-start-column="24" selection-end-line="439" selection-end-column="24" />
+          <folding>
+            <element signature="e#15397#15398#0" expanded="false" />
+            <element signature="e#15443#15444#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/whaletail/app/view/controllers/InitSceneController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="25" selection-end-column="70" />
-          <folding>
-            <element signature="e#12435#12436#0" expanded="true" />
-            <element signature="e#12475#12476#0" expanded="true" />
-            <element signature="e#12522#12523#0" expanded="true" />
-            <element signature="e#12557#12558#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="260">
+          <caret line="189" column="66" lean-forward="false" selection-start-line="189" selection-start-column="66" selection-end-line="189" selection-end-column="66" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1816,11 +1928,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>CFGM</last-edited>
+          <last-edited>CFGM_main|CFGM</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
