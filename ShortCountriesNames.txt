@@ -45,5 +45,4 @@ SM
 TR
 UA
 US
-VA
 END
